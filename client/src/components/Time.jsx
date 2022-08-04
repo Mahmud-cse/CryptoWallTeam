@@ -4,7 +4,7 @@ import logo from "../../images/logo3.png";
 
 const Time = () => {
     return (
-      <div class="flex flex-row justify-between items-center px-9 p-15">
+      <div class="flex flex-row justify-between items-center px-12 p-15">
         <div className='w-full'>
             <img src={logo} alt="" />
         </div>
