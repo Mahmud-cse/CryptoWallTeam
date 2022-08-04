@@ -1,12 +1,12 @@
 import React from 'react';
 
-import logo from "../../images/logo3.png";
+import logo3 from "../../images/logo3.png";
 
 const Time = () => {
     return (
-      <div class="flex flex-row justify-between items-center px-12 p-15">
+      <div class="flex flex-row justify-between items-center p-15">
         <div className='w-full'>
-            <img src={logo} alt="" />
+            <img src={logo3} alt="" />
         </div>
         <div className='text-white w-11/12'>
             <h2>When you this website, we use a third-party service, Google Analytics, to collect standard internet log information and details of visitor behaviour patterns.So if u don't visit after again within 6 months then these skills certificates will expire.</h2>
