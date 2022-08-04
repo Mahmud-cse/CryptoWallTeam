@@ -2,6 +2,7 @@
 // import './App.css'
 import { Navbar,Welcome,Footer,Services } from './components';
 import DocsV from './components/DocsV';
+import Time from './components/Time';
 const App=()=> {
   // const [count, setCount] = useState(0)
 
@@ -11,6 +12,7 @@ const App=()=> {
         <Navbar/>
         <Welcome/>
         <DocsV/>
+        <Time/>
         <Services/>
       </div>
       

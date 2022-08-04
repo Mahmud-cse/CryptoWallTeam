@@ -26,6 +26,11 @@ contract Transactions {
         emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
     }
 
+    function withdraw(address payable receiver, uint amount, string memory message, string memory keyword) external onlyOwner {
+        uint256 balance = address(this).balance;
+        payable(_addr).transfer(balance);
+    }
+
     function getAllTransactions() public view returns (TransferStruct[] memory) {
         return transactions;
     }
